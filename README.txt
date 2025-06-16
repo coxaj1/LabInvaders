@@ -2,6 +2,8 @@ LAB INVADERS!
 By Andrew Cox (c) 2025
 Supervised by Dr Marmorstein
 
+
+NOTE: these below compile & run instructions only apply when manual compiling with g++ in in the root directory of this project.
 To compile:
 make
 
