@@ -6,7 +6,6 @@
 
 /* TODO
 -add sound effects
--add frame rate box in corner
 -add 1 or 2 player choice at start
 -add keybind tutorial at start
 -add quit confirmation popup window
