@@ -290,19 +290,19 @@ void initPlayers(void) {
 //handle keyboard input
 void handleInput(void) {
   //player 1
-  if (currentKeyStates[SDL_SCANCODE_R]) {
+  if (currentKeyStates[SDL_SCANCODE_W]) {
     ship1y -= MSPEED;
   }
 
-  if (currentKeyStates[SDL_SCANCODE_F]) {
+  if (currentKeyStates[SDL_SCANCODE_S]) {
     ship1y += MSPEED;
   }
 
-  if (currentKeyStates[SDL_SCANCODE_D]) {
+  if (currentKeyStates[SDL_SCANCODE_A]) {
     ship1x -= MSPEED;
   }
 
-  if (currentKeyStates[SDL_SCANCODE_G]) {
+  if (currentKeyStates[SDL_SCANCODE_D]) {
     ship1x += MSPEED;
   }
   
@@ -324,11 +324,11 @@ void handleInput(void) {
   }
 
   //shooting for both players
-  if (currentKeyStates[SDL_SCANCODE_S]) {
+  if (currentKeyStates[SDL_SCANCODE_SPACE]) {
     shoot(ship1x, ship1y, bulletTex);
   }
 
-  if (currentKeyStates[SDL_SCANCODE_LCTRL]) {
+  if (currentKeyStates[SDL_SCANCODE_RETURN]) {
     shoot(ship2x, ship2y, bulletTex);
   }
   
