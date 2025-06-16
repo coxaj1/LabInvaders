@@ -13,6 +13,7 @@ inline bool gameOver = false;
 inline bool gameStarted = false;
 inline int timer = 0;
 inline int fps = 0;
+inline int twoPlayer = false;
 
 extern SDL_Window* window;
 extern SDL_Renderer* renderer;
