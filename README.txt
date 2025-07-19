@@ -11,13 +11,11 @@ To run:
 ./labinvaders
 
 Controls:
-R D F G to control player 1
-Left CTRL to shoot for player 1
+W A S D to control player 1
+SPACE to shoot for player 1
 Arrow keys to control player 2
-S to shoot for player 2
+RETURN/ENTER to shoot for player 2
 P to quit
-
--iPAC default keys are based on MAME
 
 todo:
 -for game restart: set variables to default, can be in game loop
