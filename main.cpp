@@ -5,7 +5,7 @@
  */
 
 /* TODO
--add sound effects
+-add more sound effects
 -add 1 or 2 player choice at start
 -add keybind tutorial at start
 -add quit confirmation popup window
